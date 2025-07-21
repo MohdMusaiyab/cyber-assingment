@@ -13,12 +13,15 @@ git clone git@github.com:MohdMusaiyab/cyber-assingment.git
 cd cyber-assingment
 ```
 ### 🔹 2. Backend (Django)
-    ```bash
+```bash
     cd backend
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-    ```
+    ### Run the Backend Server
+    python manage.py runserver
+    ### Move back to the main folder.
+```   
 
 ### 🔹 2. Frontend (React)
 ```bash
