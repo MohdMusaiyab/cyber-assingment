@@ -1,0 +1,57 @@
+# --- GLOBAL ---
+*.log
+*.sqlite3
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.DS_Store
+*.swp
+.vscode/
+.idea/
+*.bak
+*.orig
+node_modules/
+dist/
+build/
+
+# --- PYTHON / DJANGO ---
+venv/
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static_root/
+.mypy_cache/
+.coverage
+coverage.xml
+
+# Django migrations (optional if auto-generated)
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py~
+
+# --- FRONTEND (React) ---
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+
+# --- BACKEND ---
+backend/__pycache__/
+backend/venv/
+backend/.env
+backend/staticfiles/
+backend/media/
+backend/*.sqlite3
+
+# --- DOCKER ---
+*.pid
+*.sock
+docker-compose.override.yml
+
+# --- TESTS ---
+htmlcov/
+coverage/
+.pytest_cache/
